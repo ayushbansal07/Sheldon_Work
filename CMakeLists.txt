@@ -1,0 +1,5 @@
+cmake_minimum_required(VERSION 2.8)
+project( torun1 )
+find_package( OpenCV REQUIRED )
+add_executable( torun1 sheldon_complete.cpp )
+target_link_libraries( torun1 ${OpenCV_LIBS} )
